@@ -49,7 +49,18 @@
                             <h3>Aplikasi Pengembangan dan Pelatihan Service Center</h3>
                             <p>,</p>
                             <p> </p>
-                            <a  class="btn know_btn">know more</a>
+                            <a  class="btn know_btn" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">know more</a>
+                            <div class="row">
+                              <div class="col">
+                                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                  <div class="card card-body">
+                                    IT Training & Service Center (ITSC) UNIKOM merupakan salah satu produk unggulan dari IPTEK bagi inovasi dan kreatifitas kampus UNIKOM, yang berdiri sejak tahun 2008 sampai saat ini. ITSC UNIKOM merupakan lembaga yang bergerak di di bidang jasa pelayanan training/kursus bidang teknologi informasi dan multimedia, dan juga merupakan penyedia layanan jasa service center seperti smartphone dan laptop.
+
+                                    Selain itu, ITSC juga merupakan penyedia jasa untuk pembuatan Aplikasi dan Multimedia. Trainer yang berada di ITSC juga merupakan Trainer yang berpengalaman serta memiliki sertifikat kompetensi.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-lg-offset-1">
@@ -67,7 +78,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="head_title">
-                            <h2>PHILOSOPHY</h2>
+                            <h2>Layanan Kami</h2>
                             <p></p>
 
                         </div>
@@ -76,26 +87,23 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
-                            <span class="fa fa-leaf"></span>
-                            <h4>We deliver quality</h4>
+                            <span class=""><img src="assets/img/about0.png" class="img-thumbnail"></span>
+                            <h4>ITSC</h4>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
-                            <span class="fa fa-futbol-o"></span>
-                            <h4>Always on time</h4>
+                            <span class=""><img src="assets/img/about/aboutp.jpg" class="img-thumbnail"></span>
+                            <h4>Pearson Vue</h4>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
-                            <span class="fa fa-group"></span>
-                            <h4>We are pasionate</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="why_us_item">
-                            <span class="fa fa-line-chart"></span>
-                            <h4>Professional Services</h4>
+                            <span class=""><img src="assets/img/about/logo.png" class="img-thumbnail"></span>
+                            <h4>Smartapps UNIKOM</h4>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
                         </div>
                     </div>
                 </div>
@@ -105,24 +113,55 @@
         <!-- Services -->
         <section id="services">
             <div class="container">
-                <h2>OUR SERVICES</h2>
+                <h2>Berita Terbaru</h2>
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="service_item">
-                            <img src="assets/img/galery/1578297768136.jpg" alt="Our Services" />
-                            <h3>IT Training & Service Center (ITSC)</h3>
-                            <p>IT Training & Service Center (ITSC) UNIKOM merupakan salah satu produk unggulan dari IPTEK bagi inovasi dan kreatifitas kampus UNIKOM, yang berdiri sejak tahun 2008 sampai saat ini. ITSC UNIKOM merupakan lembaga yang bergerak di di bidang jasa pelayanan training/kursus bidang teknologi informasi dan multimedia, dan juga merupakan penyedia layanan jasa service center seperti smartphone dan laptop.</p>
-                            <a href="http://ap2sc.unikom.ac.id/itsc/" class="btn know_btn">know more</a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card-content">
+                                <div class="card-img">
+                                    <img src="https://placeimg.com/380/230/nature" alt="">
+                                    <span><h4>heading</h4></span>
+                                </div>
+                                <div class="card-desc">
+                                    <h3>Heading</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+                                        voluptas totam</p>
+                                        <a href="#" class="btn know_btn">Read</a>   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-content">
+                                <div class="card-img">
+                                    <img src="https://placeimg.com/380/230/animals" alt="">
+                                    <span><h4>heading2</h4></span>
+                                </div>
+                                <div class="card-desc">
+                                    <h3>Heading2</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+                                        voluptas totam</p>
+                                        <a href="#" class="btn know_btn">Read</a>   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-content">
+                                <div class="card-img">
+                                    <img src="https://placeimg.com/380/230/tech" alt="">
+                                    <span><h4>heading3</h4></span>
+                                </div>
+                                <div class="card-desc">
+                                    <h3>Heading3</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+                                        voluptas totam</p>
+                                        <a href="#" class="btn know_btn">Read</a>   
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                        <div class="service_item">
-                            <img src="assets/img/about/aboutp" alt="Our Services" />
-                            <h3>Pearson Vue</h3>
-                            <p>Pearson VUE adalah Testing Provider yang menyediakan pengujian di tempat untuk sertifikasi dan ujian lisensi profesional. Sertifikasi yang bertaraf internasional memiliki nilai tinggi dan bobot yang lebih besar dibandingkan dengan sertifikasi lainnya yang bersifat lokal. Kini tidak perlu jauh-jauh untuk mendapatkan sertifikat internasional tersebut, Universitas Komputer Indonesia bekerja sama dengan Pearson VUE, membuka Sertifikasi Vendor Internasional sebagai Authorized Testing Center di Bandung.</p>
-                            <a href="https://ap2sc.unikom.ac.id/itsc/pearson" class="btn know_btn">know more</a>
-                        </div>
-                    </div>
+                </div>
+<!-- details card section starts from here -->
                     <!--<div class="col-md-4">
                         <div class="service_item">
                             <img src="assets/frontend/images/service_img3.jpg" alt="Our Services" />
@@ -218,5 +257,7 @@
             </div>
         </section><!-- Contact form end -->
 
+
+       
 
        
