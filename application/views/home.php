@@ -87,7 +87,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
-                            <span class=""><img src="assets/img/about0.png" class="img-thumbnail"></span>
+                            <span class=""><img src="assets/img/about/about0.png" class="img-thumbnail"></span>
                             <h4>ITSC</h4>
                             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
                         </div>
