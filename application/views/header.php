@@ -31,7 +31,7 @@
                 <div class="container">
                     <ul class="list-inline info">
                         <li><a href="#"><span class="fa fa-phone"></span> 0812 - 1437 - 4202</a></li>
-                        <li><a href="#"><span class="fa fa-envelope"></span> ap2sc@email.unikom.ac.id</a></li>
+                        <li><a href="#"><span class="fa fa-envelope"></span> ap2sc@unikom.ac.id</a></li>
                         <li><a href="#"><span class="fa fa-clock-o"></span> Senin - Jumat 08:00 - 15:00</a></li>
                     </ul>
                     <ul class="list-inline social_icon">
@@ -68,14 +68,14 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href=""><img class="logo" src="assets/frontend/images/logo_ap2sc.png" alt=""></a>
+                        <a class="navbar-brand" href=""><img class="logo" src="assets/frontend/images/whatthefuck.png" alt=""></a>
                     </div>
                     <!-- Navigation -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav menu">
                             <li><a href="">Home</a></li>
                             <li><a href="#about">About Us</a></li>
-                            <li><a href="#services">Services</a></li>
+                            <li><a href="#services">News</a></li>
                             <li><a href="#portfolio">Gallery</a></li>
                             <li><a href="#contact_form">Contact Us</a></li>
                         </ul>
@@ -83,5 +83,3 @@
                 </div>
             </nav><!-- Navbar end -->
         </header><!-- Header end -->
-
-       
