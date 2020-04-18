@@ -7,7 +7,7 @@
                     <div class="col-lg-4 col-sm-7">
                         <div class="footer_item">
                             <h4>About Company</h4>
-                            <img class="logo" src="assets/frontend/images/logo_ap2sc.png" alt="Construction" />
+                            <img class="logo" src="assets/frontend/images/whatthefuck.png" alt="Construction" />
                             <p>Sekretariat IT Training & Service Center (R.4409) Universitas Komputer Indonesia
 
 Jln. Dipatiukur No.102-116, Coblong, Lebakgede, Bandung, Jawa Barat 40132</p>
@@ -37,7 +37,7 @@ Jln. Dipatiukur No.102-116, Coblong, Lebakgede, Bandung, Jawa Barat 40132</p>
                             <h4>Contact us</h4>
                             <ul class="list-unstyled footer_contact">
                                 <li><a href="https://www.google.com/maps/place/Universitas+Komputer+Indonesia/@-6.8866868,107.6143908,18z/data=!4m5!3m4!1s0x2e68e6f8aa08188b:0x632d24e6061e8903!8m2!3d-6.8868635!4d107.6153092"><span class="fa fa-map-marker"></span> AP2SC UNIKOM</a></li>
-                                <li><a href=""><span class="fa fa-envelope"></span> ap2sc@email.unikom.ac.id</a></li>
+                                <li><a href=""><span class="fa fa-envelope"></span> ap2sc@unikom.ac.id</a></li>
                                 <li><a href=""><span class="fa fa-mobile"></span><p>0812 - 1437 - 4202<br /></p></a></li>
                             </ul>
                         </div>
