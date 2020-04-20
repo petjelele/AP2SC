@@ -87,7 +87,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
-                            <span class=""><img src="assets/img/about/about0.png" class="img-thumbnail"></span>
+                            <span class=""><img src="assets/img/about0.png" class="img-thumbnail"></span>
                             <h4>ITSC</h4>
                             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
                         </div>
@@ -120,7 +120,7 @@
                         <div class="col-md-4">
                             <div class="card-content">
                                 <div class="card-img">
-                                    <img src="https://placeimg.com/380/230/nature" alt="">
+                                    <img src="assets/img/news/download.jpg" alt="" class="img-thumbnail ">
                                     <span><h4>heading</h4></span>
                                 </div>
                                 <div class="card-desc">
@@ -134,7 +134,7 @@
                         <div class="col-md-4">
                             <div class="card-content">
                                 <div class="card-img">
-                                    <img src="https://placeimg.com/380/230/animals" alt="">
+                                    <img src="assets/img/news/730x480-img-56583-meme-coffin-dancing.jpg" alt="" class="img-thumbnail">
                                     <span><h4>heading2</h4></span>
                                 </div>
                                 <div class="card-desc">
@@ -148,7 +148,7 @@
                         <div class="col-md-4">
                             <div class="card-content">
                                 <div class="card-img">
-                                    <img src="https://placeimg.com/380/230/tech" alt="">
+                                    <img src="assets/img/news/730x480-img-56583-meme-coffin-dancing (1).jpg" alt="" class="img-thumbnail">
                                     <span><h4>heading3</h4></span>
                                 </div>
                                 <div class="card-desc">
@@ -257,7 +257,5 @@
             </div>
         </section><!-- Contact form end -->
 
-
-       
 
        
