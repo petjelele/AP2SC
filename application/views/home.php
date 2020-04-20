@@ -49,15 +49,10 @@
                             <h3>Aplikasi Pengembangan dan Pelatihan Service Center</h3>
                             <p>,</p>
                             <p> </p>
-                            <a  class="btn know_btn" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">know more</a>
+                            <a  href="<?= base_url()?>about" class="btn know_btn">know more</a>
                             <div class="row">
                               <div class="col">
                                 <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                  <div class="card card-body">
-                                    IT Training & Service Center (ITSC) UNIKOM merupakan salah satu produk unggulan dari IPTEK bagi inovasi dan kreatifitas kampus UNIKOM, yang berdiri sejak tahun 2008 sampai saat ini. ITSC UNIKOM merupakan lembaga yang bergerak di di bidang jasa pelayanan training/kursus bidang teknologi informasi dan multimedia, dan juga merupakan penyedia layanan jasa service center seperti smartphone dan laptop.
-
-                                    Selain itu, ITSC juga merupakan penyedia jasa untuk pembuatan Aplikasi dan Multimedia. Trainer yang berada di ITSC juga merupakan Trainer yang berpengalaman serta memiliki sertifikat kompetensi.
-                                  </div>
                                 </div>
                               </div>
                             </div>
