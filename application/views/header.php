@@ -68,7 +68,7 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="<?=base_url()?>"><img class="logo" src="assets/frontend/images/whatthefuck.png" alt=""></a>
+                        <a class="navbar-brand" href="<?=base_url()?>"><img class="logo" src="assets/img/ap2sc_logo.png" alt=""></a>
                     </div>
                     <!-- Navigation -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
