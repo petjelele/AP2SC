@@ -115,7 +115,7 @@
                         <div class="col-md-4">
                             <div class="card-content">
                                 <div class="card-img">
-                                    <img src="assets/img/news/download.jpg" alt="" class="img-thumbnail ">
+                                    <img src="assets/img/news/download.jpg" alt="" class="img-thumbnail-berita" width="400">
                                     <span><h4>heading</h4></span>
                                 </div>
                                 <div class="card-desc">
@@ -129,7 +129,7 @@
                         <div class="col-md-4">
                             <div class="card-content">
                                 <div class="card-img">
-                                    <img src="assets/img/news/730x480-img-56583-meme-coffin-dancing.jpg" alt="" class="img-thumbnail">
+                                    <img src="assets/img/news/730x480-img-56583-meme-coffin-dancing.jpg" alt="" class="img-thumbnail-berita">
                                     <span><h4>heading2</h4></span>
                                 </div>
                                 <div class="card-desc">
@@ -143,7 +143,7 @@
                         <div class="col-md-4">
                             <div class="card-content">
                                 <div class="card-img">
-                                    <img src="assets/img/news/730x480-img-56583-meme-coffin-dancing (1).jpg" alt="" class="img-thumbnail">
+                                    <img src="assets/img/news/730x480-img-56583-meme-coffin-dancing (1).jpg" alt="" class="img-thumbnail-berita">
                                     <span><h4>heading3</h4></span>
                                 </div>
                                 <div class="card-desc">

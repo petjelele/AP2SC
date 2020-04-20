@@ -68,12 +68,12 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href=""><img class="logo" src="assets/frontend/images/whatthefuck.png" alt=""></a>
+                        <a class="navbar-brand" href="<?=base_url()?>"><img class="logo" src="assets/frontend/images/whatthefuck.png" alt=""></a>
                     </div>
                     <!-- Navigation -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav menu">
-                            <li><a href="">Home</a></li>
+                            <li><a href="<?=base_url()?>">Home</a></li>
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#services">News</a></li>
                             <li><a href="#portfolio">Gallery</a></li>
@@ -83,3 +83,5 @@
                 </div>
             </nav><!-- Navbar end -->
         </header><!-- Header end -->
+
+       
