@@ -42,14 +42,14 @@
         <!-- About -->
         <section id="about">
             <div class="container about_bg">
-                <div class="row">
+                <div class="row" style="margin-top:50px">
                     <div class="col-lg-7 col-md-6">
                         <div class="about_content">
                             <h2>Selamat Datang Di AP2SC</h2>
                             <h3>Aplikasi Pengembangan dan Pelatihan Service Center</h3>
                             <p>,</p>
                             <p> </p>
-                            <a  href="<?= base_url()?>about" class="btn know_btn">know more</a>
+                            <a  href="<?= base_url()?>about" class="btn know_btn" style="margin-top:-50px">know more</a>
                             <div class="row">
                               <div class="col">
                                 <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -82,23 +82,30 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
-                            <span class=""><img src="assets/img/about0.png" class="img-thumbnail"></span>
-                            <h4>ITSC</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
+                            <span class=""><img src="assets/img/unnamed_icon.png" class="img-thumbnail"></span>
+                            <h3>ITSC</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="why_us_item">
+                            <span class=""><img src="assets/img/logo_ibt.png" class="img-thumbnail"></span>
+                            <h3>IBT</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="why_us_item">
+                            <span class=""><img src="assets/img/about/logo_icon.png" class="img-thumbnail"></span>
+                            <h3>Smartapps</h3>
+                            <p></p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
                             <span class=""><img src="assets/img/about/aboutp.jpg" class="img-thumbnail"></span>
-                            <h4>Pearson Vue</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="why_us_item">
-                            <span class=""><img src="assets/img/about/logo.png" class="img-thumbnail"></span>
-                            <h4>Smartapps UNIKOM</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
+                            <h3>Pearson Vue</h3>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -116,12 +123,10 @@
                             <div class="card-content">
                                 <div class="card-img">
                                     <img src="assets/img/news/download.jpg" alt="" class="img-thumbnail-berita" width="400">
-                                    <span><h4>heading</h4></span>
+                                    <span><h4>Heading</h4></span>
                                 </div>
                                 <div class="card-desc">
-                                    <h3>Heading</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
-                                        voluptas totam</p>
+                                    <p></p>
                                         <a href="#" class="btn know_btn">Read</a>   
                                 </div>
                             </div>
@@ -133,9 +138,7 @@
                                     <span><h4>heading2</h4></span>
                                 </div>
                                 <div class="card-desc">
-                                    <h3>Heading2</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
-                                        voluptas totam</p>
+                                    <p></p>
                                         <a href="#" class="btn know_btn">Read</a>   
                                 </div>
                             </div>
@@ -147,9 +150,7 @@
                                     <span><h4>heading3</h4></span>
                                 </div>
                                 <div class="card-desc">
-                                    <h3>Heading3</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
-                                        voluptas totam</p>
+                                    <p></p>
                                         <a href="#" class="btn know_btn">Read</a>   
                                 </div>
                             </div>
@@ -225,6 +226,7 @@
                         </div>
                     </div>
                 </div><!-- Portfolio grid end -->
+                <a href="#" class="btn know_btn" style="margin-top:30px;background:#3364FF">Semua Gallery</a>
             </div>
         </section><!-- Portfolio end -->
 
