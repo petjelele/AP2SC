@@ -82,28 +82,29 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
-                            <span class=""><img src="assets/img/unnamed_icon.png" class="img-thumbnail"></span>
+                            <a href="http://ap2sc.unikom.ac.id/itsc/"><img src="assets/img/unnamed_icon.png"  class="img-thumbnail"></a>
                             <h3>ITSC</h3>
                             <p></p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
-                            <span class=""><img src="assets/img/logo_ibt.png" class="img-thumbnail"></span>
+                            <a href="http://ap2sc.unikom.ac.id/ibt/"><img src="assets/img/logo_ibt.png"  class="img-thumbnail">
+                            </a>                            
                             <h3>IBT</h3>
                             <p></p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
-                            <span class=""><img src="assets/img/about/logo_icon.png" class="img-thumbnail"></span>
+                            <a href="https://smartapps.unikom.ac.id/"><img  src="assets/img/about/logo_icon.png" class="img-thumbnail"></a>
                             <h3>Smartapps</h3>
                             <p></p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
-                            <span class=""><img src="assets/img/about/aboutp.jpg" class="img-thumbnail"></span>
+                            <a href="https://ap2sc.unikom.ac.id/itsc/pearson"><img src="assets/img/about/aboutp.jpg" class="img-thumbnail"></a>
                             <h3>Pearson Vue</h3>
                             <p></p>
                         </div>
