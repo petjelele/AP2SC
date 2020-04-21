@@ -115,61 +115,63 @@
         <!-- Services -->
         <section id="services">
             <div class="container">
-                <h2>Berita Terbaru</h2>
                 <div class="row">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card-content">
-                                <div class="card-img">
-                                    <img src="assets/img/news/download.jpg" alt="" class="img-thumbnail-berita" width="400">
-                                    <span><h4>Heading</h4></span>
-                                </div>
-                                <div class="card-desc">
-                                    <p></p>
-                                        <a href="#" class="btn know_btn">Read</a>   
-                                </div>
-                            </div>
+                <h2>Berita Terbaru</h2>
+                <div class="blog-section paddingTB60 ">
+                            <div class="site-heading text-center">
+                                            <div class="border"></div>
+                                        </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card-content">
-                                <div class="card-img">
-                                    <img src="assets/img/news/730x480-img-56583-meme-coffin-dancing.jpg" alt="" class="img-thumbnail-berita">
-                                    <span><h4>heading2</h4></span>
-                                </div>
-                                <div class="card-desc">
-                                    <p></p>
-                                        <a href="#" class="btn know_btn">Read</a>   
-                                </div>
-                            </div>
+                        <div class="row text-center">
+                               <div class="col-sm-6 col-md-4">
+                                                <div class="blog-box">
+                                                    <div class="blog-box-image">
+                                                        <img src="https://images.pexels.com/photos/6384/woman-hand-desk-office.jpg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive" alt="">
+                                                    </div>
+                                                    <div class="blog-box-content">
+                                                        <h4><a href="#">quis porta tellus dictum</a></h4>
+                                                        <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. 
+                                                        Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+                                                        <a href="" class="btn btn-default site-btn">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- End Col -->					
+                                <div class="col-sm-6 col-md-4">
+                                                <div class="blog-box">
+                                                    <div class="blog-box-image">
+                                                        <img src="https://images.pexels.com/photos/374897/pexels-photo-374897.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive" alt="">
+                                                    </div>
+                                                    <div class="blog-box-content">
+                                                        <h4><a href="#">quis porta tellus dictum</a></h4>
+                                                        <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. 
+                                                        Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+                                                        <a href="" class="btn btn-default site-btn">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- End Col -->				
+                                <div class="col-sm-6 col-md-4">
+                                                <div class="blog-box">
+                                                    <div class="blog-box-image">
+                                                        <img src="https://images.pexels.com/photos/541522/pexels-photo-541522.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive" alt="">
+                                                    </div>
+                                                    <div class="blog-box-content">
+                                                        <h4><a href="#">quis porta tellus dictum</a></h4>
+                                                        <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. 
+                                                        Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+                                                        <a href="" class="btn btn-default site-btn">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- End Col -->
+                                          <a  href="<?=base_url()?>schedule" class="btn know_btn" style="margin-top:35px;">Lihat Semua</a>                    
                         </div>
-                        <div class="col-md-4">
-                            <div class="card-content">
-                                <div class="card-img">
-                                    <img src="assets/img/news/730x480-img-56583-meme-coffin-dancing (1).jpg" alt="" class="img-thumbnail-berita">
-                                    <span><h4>heading3</h4></span>
-                                </div>
-                                <div class="card-desc">
-                                    <p></p>
-                                        <a href="#" class="btn know_btn">Read</a>   
-                                </div>
-                            </div>
-                        </div>
+      
+             
+                    
                     </div>
+  
                 </div>
-<!-- details card section starts from here -->
-                    <!--<div class="col-md-4">
-                        <div class="service_item">
-                            <img src="assets/frontend/images/service_img3.jpg" alt="Our Services" />
-                            <h3>ARCHITECTURE</h3>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <a href="#services" class="btn know_btn">know more</a>
-                        </div>
-                    </div>-->
-                </div>
-            </div>
-        </section><!-- Services end -->
-
+            
+    </section>
         <!-- Portfolio -->
         <section id="portfolio">
             <div class="container portfolio_area text-center">
@@ -226,7 +228,7 @@
                         </div>
                     </div>
                 </div><!-- Portfolio grid end -->
-                <a href="#" class="btn know_btn" style="margin-top:30px;background:#3364FF">Semua Gallery</a>
+                <a href="#" class="btn know_btn" style="margin-top:30px;background:#3364FF">Lihat Semua</a>
             </div>
         </section><!-- Portfolio end -->
 

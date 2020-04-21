@@ -19,6 +19,7 @@
         <link rel="stylesheet" type="text/css" href="assets/frontend/css/jquery.fancybox.css" media="screen" />
         <!-- Custom stylesheet -->
         <link rel="stylesheet" href="assets/frontend/css/custom.css" />
+        
         <!--[if lt IE 9]>
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->

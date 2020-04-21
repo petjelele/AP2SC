@@ -8,7 +8,7 @@
                         <div class="footer_item">
                             <h4>About Company</h4>
                             <img class="logo" src="assets/frontend/images/whatthefuck.png" alt="Construction" />
-                            <p>Sekretariat IT Training & Service Center (R.4409) Universitas Komputer Indonesia
+                            <p class="text-justify">Sekretariat IT Training & Service Center (R.4409) Universitas Komputer Indonesia
 
 Jln. Dipatiukur No.102-116, Coblong, Lebakgede, Bandung, Jawa Barat 40132</p>
 

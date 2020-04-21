@@ -1,4 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
         <section id="home" class="home">
             <!-- Carousel -->
             <div id="carousel" class="carousel slide" data-ride="carousel">
