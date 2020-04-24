@@ -8,23 +8,24 @@
                         <img src="assets/frontend/images/slider.jpg" alt="Construction">
                         <div class="overlay">
                             <div class="carousel-caption">
-                                <h3>Aplikasi Pengembangan dan Pelatihan Service Center</h3>
+                                <h3>Aplikasi Pengembangan Pelatihan dan Service Center</h3>
                                 <h1>AP2SC</h1>
                                 <h1 class="second_heading">UNIKOM</h1>
                             </div>
                         </div>
                     </div>
+                    <?php foreach ($slider as $sliders) { ?>
                     <div class="item">
-                        <img src="assets/frontend/images/slider_2.jpg" alt="Construction">
+                        <img src="assets/img/slider/<?= $sliders->photo_slider ?>">
                         <div class="overlay">
                             <div class="carousel-caption">
-                                <h3>Aplikasi Pengembangan dan Pelatihan Service Center</h3>
+                                <h3>Aplikasi Pengembangan Pelatihan dan Service Center</h3>
                                 <h1>AP2SC</h1>
                                 <h1 class="second_heading">UNIKOM</h1>
                             </div>
                         </div>
                     </div>
-
+                        <?php } ?>
                 </div>  
                 <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
                     <span class="fa fa-angle-left" aria-hidden="true"></span>
@@ -35,7 +36,7 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-
+            
         </section>
 
 
@@ -46,7 +47,7 @@
                     <div class="col-lg-7 col-md-6">
                         <div class="about_content">
                             <h2>Selamat Datang Di AP2SC</h2>
-                            <h3>Aplikasi Pengembangan dan Pelatihan Service Center</h3>
+                            <h3>Aplikasi Pengembangan Pelatihan dan Service Center</h3>
                             <p>,</p>
                             <p> </p>
                             <a  href="<?= base_url()?>about" class="btn know_btn" style="margin-top:-50px">know more</a>
@@ -163,7 +164,7 @@
                                                     </div>
                                                 </div>
                                             </div> <!-- End Col -->
-                                          <a  href="<?=base_url()?>schedule" class="btn know_btn" style="margin-top:35px;">Lihat Semua</a>                    
+                                          <a  href="<?=base_url()?>schedule" class="btn know_btn" style="margin-top:35px;margin-bottom:60px">Lihat Semua</a>                    
                         </div>
       
              
@@ -173,6 +174,34 @@
                 </div>
             
     </section>
+
+        <!--OUR PARTNERS START-->
+        <div class="container text-center">    
+              <h2>Our Partners</h2>
+              <br>
+              <div class="row">
+                <div class="col-sm-2">
+                  <img src="assets/img/mitra/Azus.png" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-2"> 
+                  <img src="assets/img/mitra/bni.png" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-2"> 
+                  <img src="assets/img/mitra/belogix.png" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-2"> 
+                  <img src="assets/img/mitra/pearson.png" class="img-responsive" style="width:100%" alt="Image">
+                </div> 
+                <div class="col-sm-2"> 
+                  <img src="assets/img/mitra/hitsunikomradio.png" class="img-responsive" style="width:100%" alt="Image">
+                </div>     
+                <div class="col-sm-2"> 
+                  <img src="assets/img/mitra/telkomedika.png" class="img-responsive" style="width:100%" alt="Image">
+                </div> 
+              </div>
+        </div><br>
+		<!--OUR PARTNERS END-->
+
         <!-- Portfolio -->
         <section id="portfolio">
             <div class="container portfolio_area text-center">
