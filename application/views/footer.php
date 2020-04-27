@@ -1,6 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');?>
- <!-- Footer -->
-        <footer>
+ <footer>
             <!-- Footer top -->
             <div class="container footer_top">
                 <div class="row">
@@ -8,7 +7,7 @@
                         <div class="footer_item">
                             <h4>About Company</h4>
                             <img class="logo" src="assets/frontend/images/whatthefuck.png" alt="Construction" />
-                            <p class="text-justify">Sekretariat IT Training & Service Center (R.4409) Universitas Komputer Indonesia
+                            <p class="">Sekretariat IT Training & Service Center (R.4409) Universitas Komputer Indonesia
 
 Jln. Dipatiukur No.102-116, Coblong, Lebakgede, Bandung, Jawa Barat 40132</p>
 
@@ -32,7 +31,7 @@ Jln. Dipatiukur No.102-116, Coblong, Lebakgede, Bandung, Jawa Barat 40132</p>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-7">
+                    <div class="col-lg-2 col-sm-3">
                         <div class="footer_item">
                             <h4>Contact us</h4>
                             <ul class="list-unstyled footer_contact">
@@ -40,6 +39,12 @@ Jln. Dipatiukur No.102-116, Coblong, Lebakgede, Bandung, Jawa Barat 40132</p>
                                 <li><a href=""><span class="fa fa-envelope"></span> ap2sc@unikom.ac.id</a></li>
                                 <li><a href=""><span class="fa fa-mobile"></span><p>0812 - 1437 - 4202<br /></p></a></li>
                             </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-5">
+                        <div class="footer_item" style="padding-left:50px">
+                            <!--<h4>Youtube</h4>-->
+                            <iframe width="380" height="320" src="https://www.youtube.com/embed/SWPdumfWQQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
