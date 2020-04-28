@@ -8,8 +8,7 @@
                             <h4>About Company</h4>
                             <img class="logo" src="assets/frontend/images/whatthefuck.png" alt="Construction" />
                             <p class="">Sekretariat IT Training & Service Center (R.4409) Universitas Komputer Indonesia
-
-Jln. Dipatiukur No.102-116, Coblong, Lebakgede, Bandung, Jawa Barat 40132</p>
+                                        Jln. Dipatiukur No.102-116, Coblong, Lebakgede, Bandung, Jawa Barat 40132</p>
 
                             <ul class="list-inline footer_social_icon">
                                 <li><a href="https://www.facebook.com/unikomitsc/"><span class="fa fa-facebook"></span></a></li>
@@ -62,7 +61,7 @@ Jln. Dipatiukur No.102-116, Coblong, Lebakgede, Bandung, Jawa Barat 40132</p>
         <!-- JavaScript -->
         <script src="assets/frontend/js/jquery-1.12.1.min.js"></script>
         <script src="assets/frontend/js/bootstrap.min.js"></script>
-
+        <script src="assets/frontend/js/script.js"></script>
         <!-- Bootsnav js -->
         <script src="assets/frontend/js/bootsnav.js"></script>
 
@@ -70,18 +69,9 @@ Jln. Dipatiukur No.102-116, Coblong, Lebakgede, Bandung, Jawa Barat 40132</p>
         <script src="assets/frontend/js/isotope.js"></script>
         <script src="assets/frontend/js/isotope-active.js"></script>
         <script src="assets/frontend/js/jquery.fancybox.js?v=2.1.5"></script>
-
+        <script src="assets/frontend/js/slick.js"></script>
         <script src="assets/frontend/js/jquery.scrollUp.min.js"></script>
         <script src="assets/frontend/js/main.js"></script>
-        <script src="assets/frontend/js/load-maps.js"></script><script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/5e0ea8b77e39ea1242a2cea1/default';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
+        <script src="assets/frontend/js/load-maps.js"></script>
     </body>
 </html>

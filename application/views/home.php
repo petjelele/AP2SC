@@ -164,7 +164,7 @@
                                                     </div>
                                                 </div>
                                             </div> <!-- End Col -->
-                                          <a  href="<?=base_url()?>schedule" class="btn know_btn" style="margin-top:35px;margin-bottom:60px">Lihat Semua</a>                    
+                                          <a  href="<?=base_url()?>schedule" class="btn know_btn" style="margin-top:35px;margin-bottom:20px">Lihat Semua</a>                    
                         </div>
       
              
@@ -174,33 +174,6 @@
                 </div>
             
     </section>
-
-        <!--OUR PARTNERS START-->
-        <div class="container text-center">    
-              <h2>Our Partners</h2>
-              <br>
-              <div class="row">
-                <div class="col-sm-2">
-                  <img src="assets/img/mitra/Azus.png" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-2"> 
-                  <img src="assets/img/mitra/bni.png" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-2"> 
-                  <img src="assets/img/mitra/belogix.png" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-2"> 
-                  <img src="assets/img/mitra/pearson.png" class="img-responsive" style="width:100%" alt="Image">
-                </div> 
-                <div class="col-sm-2"> 
-                  <img src="assets/img/mitra/hitsunikomradio.png" class="img-responsive" style="width:100%" alt="Image">
-                </div>     
-                <div class="col-sm-2"> 
-                  <img src="assets/img/mitra/telkomedika.png" class="img-responsive" style="width:100%" alt="Image">
-                </div> 
-              </div>
-        </div><br>
-		<!--OUR PARTNERS END-->
 
         <!-- Portfolio -->
         <section id="portfolio">
@@ -258,9 +231,26 @@
                         </div>
                     </div>
                 </div><!-- Portfolio grid end -->
-                <a href="#" class="btn know_btn" style="margin-top:30px;background:#3364FF">Lihat Semua</a>
+                <a href="<?=base_url()?>contact" class="btn know_btn" style="margin-top:30px;background:#ffcb0f">Lihat Semua</a>
             </div>
         </section><!-- Portfolio end -->
+    
+                <!--OUR PARTNERS START-->
+        <div class="row">
+                <div class="container" style="margin-top:50px">
+                    <section class="customer-logos slider">
+                        <div class="slide"><img src="assets/img/mitra/belogix.png"></div>
+                        <div class="slide"><img src="assets/img/mitra/bni.png"></div>
+                        <div class="slide"><img src="assets/img/mitra/hitsunikomradio.png"></div>
+                        <div class="slide"><img src="assets/img/mitra/telkompcc.png"></div>
+                        <div class="slide"><img src="assets/img/mitra/telkomedika.png"></div>
+                        <div class="slide"><img src="assets/img/mitra/Azus.png"></div>
+                        <div class="slide"><img src="assets/img/mitra/astera.png"></div>
+                        <div class="slide"><img src="assets/img/mitra/idcard.png"></div>
+                    </section>
+                </div>
+            </div>
+                <!--OUR PARTNERS END-->
 
         <!-- Contact form -->
         <section id="contact_form">

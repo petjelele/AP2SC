@@ -15,7 +15,7 @@ class Home extends CI_Controller {
 		$data['galery']	= $this->M_galery->get_all_data()->result();
 		$data['news']	= $this->M_news->get_limit_data($limit)->result();
 		$this->load->view('header');
-		$this->load->view('home', $data);
+		$this->load->view('home',$data);
 		$this->load->view('footer');
 	}
     
@@ -34,8 +34,12 @@ class Home extends CI_Controller {
 		$this->load->view('footer');
 	}
     
-    private function page(){
-
-	}
+    public function contact()
+    {
+        
+        $this->load->view('header');
+        $this->load->view('contact');
+		$this->load->view('footer');   
+    }
 
 }
