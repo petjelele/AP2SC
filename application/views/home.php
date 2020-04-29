@@ -132,10 +132,10 @@
                                                         <img src="assets/img/news/<?= $berita->photo_news ?>" class="img-responsive" alt="">
                                                     </div>
                                                     <div class="blog-box-content">
-                                                        <h4><a href="<?= base_url()?>detail/<?= abs($berita->id_news) ?>"><?= $berita->judul ?></a></h4>
+                                                        <h4><a href=""><?= $berita->judul ?></a></h4>
                                                         <p><?= substr($berita->desc, 0, 100)?> ..
 </p>
-                                                        <a href="" class="btn btn-default site-btn">Read More</a>
+                                                        <a href="<?= base_url()?>detail/<?= abs($berita->id_news)?>" class="btn btn-default site-btn">Read More</a>
                                                     </div>
                                                 </div>
                                             </div> <!-- End Col -->			<?php }?>

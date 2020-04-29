@@ -65,13 +65,13 @@
         <script src="assets/frontend/js/bootsnav.js"></script>
 
         <!-- JS Implementing Plugins -->
-        <script src="assets/frontend/js/isotope.js"></script>
-        <script src="assets/frontend/js/isotope-active.js"></script>
-        <script src="assets/frontend/js/jquery.fancybox.js?v=2.1.5"></script>
-        <script src="assets/frontend/js/slick.js"></script>
-        <script src="assets/frontend/js/jquery.scrollUp.min.js"></script>
-        <script src="assets/frontend/js/main.js"></script>
-        <script src="assets/frontend/js/load-maps.js"></script>
+        <script src="<?=base_url()?>assets/frontend/js/isotope.js"></script>
+        <script src="<?=base_url()?>assets/frontend/js/isotope-active.js"></script>
+        <script src="<?=base_url()?>assets/frontend/js/jquery.fancybox.js?v=2.1.5"></script>
+        <script src="<?=base_url()?>assets/frontend/js/slick.js"></script>
+        <script src="<?=base_url()?>assets/frontend/js/jquery.scrollUp.min.js"></script>
+        <script src="<?=base_url()?>assets/frontend/js/main.js"></script>
+        <script src="<?=base_url()?>assets/frontend/js/load-maps.js"></script>
         <script>
             popup = {
           init: function(){

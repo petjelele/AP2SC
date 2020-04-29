@@ -26,23 +26,9 @@ class Home extends CI_Controller {
 		$this->load->view('footer');
 
 	}
+
     
-    public function schedule()
-	{
-		$this->load->view('header');
-		$this->load->view('schedule');
-		$this->load->view('footer');
-	}
-    
-    public function contact()
-    {
-        
-        $this->load->view('header');
-        $this->load->view('contact');
-		$this->load->view('footer');   
-    }
-    
-    public function news_detail($id)
+    	public function news_detail($id)
 	{
 		$limit = 5;
 		$data['detail'] = $this->M_news->get_by_id($id);
@@ -51,6 +37,7 @@ class Home extends CI_Controller {
 		$this->load->view('news_detail', $data);
 		$this->load->view('footer');
 	}
+
     
     public function v_news()
 	{

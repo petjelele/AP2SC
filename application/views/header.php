@@ -8,18 +8,18 @@
         <!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <!-- Custom Fonts -->
-        <link rel="stylesheet" href="assets/frontend/custom-font/fonts.css" >
+        <link rel="stylesheet" href="<?=base_url()?>assets/frontend/custom-font/fonts.css" >
         <!-- Bootstrap -->
-        <link rel="stylesheet" href=" assets/frontend/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="<?=base_url()?>assets/frontend/css/bootstrap.min.css" >
         <!-- Font Awesome -->
-        <link rel="stylesheet" href="assets/frontend/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?=base_url()?>assets/frontend/css/font-awesome.min.css">
         <!-- Bootsnav -->
-        <link rel="stylesheet" href="assets/frontend/css/bootsnav.css">
+        <link rel="stylesheet" href="<?=base_url()?>assets/frontend/css/bootsnav.css">
         <!-- Fancybox -->
-        <link rel="stylesheet" type="text/css" href="assets/frontend/css/jquery.fancybox.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/frontend/css/jquery.fancybox.css" media="screen">
         <!-- Custom stylesheet -->
-        <link rel="stylesheet" href="assets/frontend/css/custom.css" >
-        <link rel="stylesheet" type="text/css" href="assets/frontend/css/style.css">
+        <link rel="stylesheet" href="<?=base_url()?>assets/frontend/css/custom.css" >
+        <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/frontend/css/style.css">
         <style>
         *,
         *::before,
@@ -492,7 +492,7 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="<?=base_url()?>"><img class="logo" src="assets/frontend/images/whatthefuck.png" alt=""></a>
+                        <a class="navbar-brand" href="<?=base_url()?>"><img class="logo" src="<?=base_url()?>assets/frontend/images/whatthefuck.png" alt=""></a>
                     </div>
                     <!-- Navigation -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
