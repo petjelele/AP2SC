@@ -69,6 +69,7 @@
         }
 
         .popup {
+         align-content: center;    
           position: fixed;
           z-index: 2;
           top: 0;
@@ -107,6 +108,7 @@
           z-index: 2;
           border-radius: 15px;
           box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 6px 30px rgba(0, 0, 0, 0.4);
+          height: 500px;
         }
         .popup figure figcaption {
           position: absolute;

@@ -125,46 +125,22 @@
                                         </div>
                         </div>
                         <div class="row text-center">
+                                <?php foreach ($news as $berita) { ?>
                                <div class="col-sm-6 col-md-4">
                                                 <div class="blog-box">
                                                     <div class="blog-box-image">
-                                                        <img src="https://images.pexels.com/photos/6384/woman-hand-desk-office.jpg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive" alt="">
+                                                        <img src="assets/img/news/<?= $berita->photo_news ?>" class="img-responsive" alt="">
                                                     </div>
                                                     <div class="blog-box-content">
-                                                        <h4><a href="#">quis porta tellus dictum</a></h4>
-                                                        <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. 
-                                                        Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+                                                        <h4><a href="<?= base_url()?>detail/<?= abs($berita->id_news) ?>"><?= $berita->judul ?></a></h4>
+                                                        <p><?= substr($berita->desc, 0, 100)?> ..
+</p>
                                                         <a href="" class="btn btn-default site-btn">Read More</a>
                                                     </div>
                                                 </div>
-                                            </div> <!-- End Col -->					
-                                <div class="col-sm-6 col-md-4">
-                                                <div class="blog-box">
-                                                    <div class="blog-box-image">
-                                                        <img src="https://images.pexels.com/photos/374897/pexels-photo-374897.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive" alt="">
-                                                    </div>
-                                                    <div class="blog-box-content">
-                                                        <h4><a href="#">quis porta tellus dictum</a></h4>
-                                                        <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. 
-                                                        Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
-                                                        <a href="" class="btn btn-default site-btn">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div> <!-- End Col -->				
-                                <div class="col-sm-6 col-md-4">
-                                                <div class="blog-box">
-                                                    <div class="blog-box-image">
-                                                        <img src="https://images.pexels.com/photos/541522/pexels-photo-541522.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive" alt="">
-                                                    </div>
-                                                    <div class="blog-box-content">
-                                                        <h4><a href="#">quis porta tellus dictum</a></h4>
-                                                        <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. 
-                                                        Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
-                                                        <a href="" class="btn btn-default site-btn">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div> <!-- End Col -->
-                                          <a  href="<?=base_url()?>schedule" class="btn know_btn" style="margin-top:35px;margin-bottom:20px">Lihat Semua</a>                    
+                                            </div> <!-- End Col -->			<?php }?>
+                           
+                                                        
                         </div>
       
              
@@ -172,7 +148,9 @@
                     </div>
   
                 </div>
-            
+             <div class="row text-center">
+                             <a  href="<?=base_url()?>news" class="btn know_btn" style="margin-top:35px;margin-bottom:20px">Lihat Semua</a>     
+                            </div>
     </section>
 
         <!-- Portfolio -->
@@ -231,13 +209,14 @@
                         </div>
                     </div>
                 </div><!-- Portfolio grid end -->
-                <a href="<?=base_url()?>contact" class="btn know_btn" style="margin-top:30px;background:#ffcb0f">Lihat Semua</a>
+                <a href="<?=base_url()?>galery" class="btn know_btn" style="margin-top:30px;background:#ffcb0f">Lihat Semua</a>
             </div>
         </section><!-- Portfolio end -->
     
                 <!--OUR PARTNERS START-->
         <div class="row">
-                <div class="container" style="margin-top:50px">
+                <div class="container" style="margin-top:50px;">
+                     <h2 style="text-align:center;">Mitra Kami</h2>
                     <section class="customer-logos slider">
                         <div class="slide"><img src="assets/img/mitra/belogix.png"></div>
                         <div class="slide"><img src="assets/img/mitra/bni.png"></div>
