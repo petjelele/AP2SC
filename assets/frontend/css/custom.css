@@ -588,9 +588,9 @@ footer {
     background: url(../images/footer_bg.jpg)no-repeat;
     background-size:cover;
     position:relative;
-    padding-top:45px;
+    padding-top:0px;
 }
-footer::before {
+/*footer::before {
     background: rgba(255, 255, 255, 0.33) none repeat scroll 0 0;
     content: "";
     height: 45px;
@@ -599,7 +599,7 @@ footer::before {
     top: 0;
     width: 100%;
     z-index: 1;
-}
+}*/
 footer::after {
     background: rgba(34, 37, 51, 0.9) none repeat scroll 0 0;
     content: "";
