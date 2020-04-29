@@ -215,7 +215,7 @@
     
                 <!--OUR PARTNERS START-->
         <div class="row">
-                <div class="container" style="margin-top:50px;">
+                <div class="container" style="margin-top:50px;margin-bottom:35px" >
                      <h2 style="text-align:center;">Mitra Kami</h2>
                     <section class="customer-logos slider">
                         <div class="slide"><img src="assets/img/mitra/belogix.png"></div>
