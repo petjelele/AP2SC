@@ -4,7 +4,7 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>AP2SC</title>
+        <title>Direktorat AP2SC</title>
         <!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <!-- Custom Fonts -->
@@ -454,7 +454,7 @@
             <div class="top_nav">
                 <div class="container">
                     <ul class="list-inline info">
-                        <li><a href="#"><span class="fa fa-phone"></span> 0812 - 1437 - 4202</a></li>
+                        <li><a href="#"><span class="fa fa-phone"></span> (022) 2532141</a></li>
                         <li><a href="#"><span class="fa fa-envelope"></span> ap2sc@unikom.ac.id</a></li>
                         <li><a href="#"><span class="fa fa-clock-o"></span> Senin - Jumat 08:00 - 15:00</a></li>
                     </ul>

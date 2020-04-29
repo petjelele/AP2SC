@@ -46,7 +46,7 @@
                 <div class="row" style="margin-top:50px">
                     <div class="col-lg-7 col-md-6">
                         <div class="about_content">
-                            <h2>Selamat Datang Di AP2SC</h2>
+                            <h2>Welcome To AP2SC</h2>
                             <h3>Aplikasi Pengembangan Pelatihan dan Service Center</h3>
                             <p>,</p>
                             <p> </p>
@@ -74,7 +74,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="head_title">
-                            <h2>Layanan Kami</h2>
+                            <h2>OUR SERVICES</h2>
                             <p></p>
 
                         </div>
@@ -118,7 +118,7 @@
         <section id="services">
             <div class="container">
                 <div class="row">
-                <h2>Berita Terbaru</h2>
+                <h2>Recent News</h2>
                 <div class="blog-section paddingTB60 ">
                             <div class="site-heading text-center">
                                             <div class="border"></div>
@@ -149,7 +149,7 @@
   
                 </div>
              <div class="row text-center">
-                             <a  href="<?=base_url()?>news" class="btn know_btn" style="margin-top:35px;margin-bottom:20px">Lihat Semua</a>     
+                             <a  href="<?=base_url()?>news" class="btn know_btn" style="margin-top:35px;margin-bottom:20px">MORE NEWS</a>     
                             </div>
     </section>
 
@@ -209,16 +209,17 @@
                         </div>
                     </div>
                 </div><!-- Portfolio grid end -->
-                <a href="<?=base_url()?>galery" class="btn know_btn" style="margin-top:30px;background:#ffcb0f">Lihat Semua</a>
+                <a href="<?=base_url()?>galery" class="btn know_btn" style="margin-top:30px;background:#ffcb0f">MORE GALLERY</a>
             </div>
         </section><!-- Portfolio end -->
     
                 <!--OUR PARTNERS START-->
         <div class="row">
                 <div class="container" style="margin-top:50px;margin-bottom:35px" >
-                     <h2 style="text-align:center;">Mitra Kami</h2>
+                     <h2 style="text-align:center;">OUR PARTNERS</h2>
                     <section class="customer-logos slider">
                         <div class="slide"><img src="assets/img/mitra/belogix.png"></div>
+                        <div class="slide"><img src="assets/img/mitra/pearson.png"></div>
                         <div class="slide"><img src="assets/img/mitra/bni.png"></div>
                         <div class="slide"><img src="assets/img/mitra/hitsunikomradio.png"></div>
                         <div class="slide"><img src="assets/img/mitra/telkompcc.png"></div>

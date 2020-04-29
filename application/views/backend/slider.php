@@ -49,7 +49,7 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2019 <a href="https://adminlte.io">Direktorat AP2SC</a>.</strong> All rights
+    <strong>Copyright &copy; 2020 <a href="https://adminlte.io">Direktorat AP2SC</a>.</strong> All rights
     reserved.
   </footer>
   <div class="control-sidebar-bg"></div>

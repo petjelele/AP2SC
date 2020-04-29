@@ -1,13 +1,11 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
         <section id="services">
             <div class="container">
-                <h2>All News</h2>
-                <div class="blog-section paddingTB60 ">
-                    <div class="container">
+                <h2 class="text-center">All News</h2>
+                <div class="blog-section paddingTB60">
                             <div class="site-heading text-center">
                                             <div class="border"></div>
                                         </div>
-                        </div>
                         <div class="row text-center">
                                 <?php foreach ($allnews as $allberita) { ?>
                                <div class="col-sm-6 col-md-4">
