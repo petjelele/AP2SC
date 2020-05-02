@@ -26,6 +26,14 @@ class Home extends CI_Controller {
 		$this->load->view('footer');
 
 	}
+    
+    
+	public function contact()
+	{
+		$this->load->view('header');
+		$this->load->view('contact');
+		$this->load->view('footer');
+	}
 
     
     	public function news_detail($id)

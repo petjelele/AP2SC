@@ -119,14 +119,13 @@
             <div class="container">
                 <div class="row">
                 <h2>Recent News</h2>
-                <div class="blog-section paddingTB60 ">
                             <div class="site-heading text-center">
                                             <div class="border"></div>
                                         </div>
-                        </div>
+                       
                         <div class="row text-center">
                                 <?php foreach ($news as $berita) { ?>
-                               <div class="col-sm-6 col-md-4">
+                               <div class="col-sm-2 col-md-4">
                                                 <div class="blog-box">
                                                     <div class="blog-box-image">
                                                         <img src="assets/img/news/<?= $berita->photo_news ?>" class="img-responsive" alt="">
@@ -172,7 +171,7 @@
                     <div class="grid-item grid-item--width2 grid-item--height2 buildings plumbing interior">
                         <img src="assets/img/galery/1578365354168.jpg" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="assets/img/galery/1578365354168.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="assets/img/galery/1578365354168.jpg" data-fancybox-group="gallery" title="Workshop Bongkar Laptop"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
                     </div>
@@ -180,7 +179,7 @@
                     <div class="grid-item buildings interior isolation">
                         <img alt="" src="assets/img/galery/1578297768136.jpg" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="assets/img/galery/1578297768136.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="assets/img/galery/1578297768136.jpg" data-fancybox-group="gallery" title="Workshop Jaringan"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
                     </div>
@@ -188,7 +187,7 @@
                     <div class="grid-item interior plumbing isolation">
                         <img alt="" src="assets/img/galery/1578365720197.png" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="assets/img/galery/1578365720197.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="assets/img/galery/1578365720197.png" data-fancybox-group="gallery" title="Doorprize Workshop"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
                     </div>
@@ -196,7 +195,7 @@
                     <div class="grid-item isolation buildings">
                         <img alt="" src="assets/img/galery/1578365562805.jpg" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="assets/img/galery/1578365562805.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="assets/img/galery/1578365562805.jpg" data-fancybox-group="gallery" title="Workshop IoT dengan Raspberry Pi"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
                     </div>
@@ -204,7 +203,8 @@
                     <div class="grid-item plumbing isolation">
                         <img alt="" src="assets/img/galery/1578293839092.jpg" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="assets/img/galery/1578293839092.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="assets/img/galery/1578293839092.jpg" data-fancybox-group="gallery" title="Rekor Muri Merakit dan Instalasi PC 2012
+"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
                     </div>
@@ -240,18 +240,28 @@
                         <h2>Do you have any questions?</h2>
                         <h2 class="second_heading">Feel free to contact us!</h2>
                     </div>
-                    <form role="form" class="form-inline text-right col-md-6" >
+                    <form id="ajax-contact" role="form" class="form-inline text-right col-md-6" method="post" action="<?=base_url()?>inbox"> 
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name" placeholder="Name">
+                            <input type="text" class="form-control" id="namA" placeholder="Name" name="namA">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Email">
+                             <input class="form-control" placeholder="Your Email" name="emaiL" id="emaiL" required type="email">
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" rows="5" id="msg" placeholder="Message"></textarea>
+                            <textarea class="form-control" rows="5" id="msg" placeholder="Message" name="messagE"></textarea>
                         </div>
-                        <button type="submit" class="btn submit_btn">Submit</button>
+                        <button type="submit" onclick="validation();" class="btn submit_btn">Submit</button>
                     </form>
+                    <script type="text/javascript">
+                    function validation()
+                        {
+                            Swal.fire(
+                              'Good job!',
+                              'You clicked the button!',
+                              'success'
+                            )
+                        }
+                    </script>
                 </div>
             </div>
         </section><!-- Contact form end -->

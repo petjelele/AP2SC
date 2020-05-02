@@ -16,7 +16,7 @@
                                                     <div class="blog-box-content">
                                                         <h4><a href="<?= base_url()?>detail/<?= abs($allberita->id_news) ?>"><?= $allberita->judul ?></a></h4>
                                                         <p><?= substr($allberita->desc, 0, 100)?> ..</p>
-                                                        <a href="" class="btn btn-default site-btn">Read More</a>
+                                                        <a href="<?= base_url()?>detail/<?= abs($allberita->id_news)?>" class="btn btn-default site-btn">Read More</a>
                                                     </div>
                                                 </div>
                                             </div> <!-- End Col -->			<?php }?>

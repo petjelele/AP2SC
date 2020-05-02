@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-5">
-                        <div class="footer_item" style="padding-left:50px">
+                        <div class="footer_item" style="">
                             <!--<h4>Youtube</h4>-->
                             <iframe width="380" height="320" src="https://www.youtube.com/embed/videoseries?list=PLo9cpv8KV_DG3RgUvVDBm76jFBNWqVLsD" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
@@ -72,6 +72,8 @@
         <script src="<?=base_url()?>assets/frontend/js/jquery.scrollUp.min.js"></script>
         <script src="<?=base_url()?>assets/frontend/js/main.js"></script>
         <script src="<?=base_url()?>assets/frontend/js/load-maps.js"></script>
+        <script src="<?=base_url()?>assets/frontend/js/sweetalert2.js"></script>
+        <script src="<?=base_url()?>assets/frontend/js/sweetalert2.min.js"></script>
         <script>
             popup = {
           init: function(){

@@ -20,6 +20,7 @@
         <!-- Custom stylesheet -->
         <link rel="stylesheet" href="<?=base_url()?>assets/frontend/css/custom.css" >
         <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/frontend/css/style.css">
+        <link rel="stylesheet" href="<?=base_url()?>assets/frontend/css/sweetalert2.min.css">
         <style>
         *,
         *::before,
