@@ -19,21 +19,24 @@
                                         </div>
                             </div> <!-- End Col -->		
                             <div class="col-sm-1 col-md-2 text-center" style="float:right;">
-                                <ul style="list-style-type:none;border:1px solid;padding:0;padding-right:25px;background:#131315">
-                                    <h4>Recent News</h4>
+                               <aside id="sidebar">
+                            <div class="widget-single widget-recent-blog">
+                                <h4 class="hr-primary">Recent News</h4>
+                                <ul>
                                     <?php foreach ($news as $berita) {?>
-                                    <li>
-                                        <div class="blog-box" style="">
+                                    <li >
                                         <figure>
                                             <a href="<?= base_url()?>detail/<?= abs($berita->id_news) ?>"><img src="<?= base_url()?>assets/img/news/<?= $berita->photo_news?>" alt=""></a>
                                         </figure>
                                         <div class="post-summary">
-                                            <h6><a href="<?= base_url()?>detail/<?= abs($berita->id_news) ?>"><?= $berita->judul?></a></h6>
+                                            <h5><a href="<?= base_url()?>detail/<?= abs($berita->id_news) ?>"><?= $berita->judul?></a></h5>
+                                            <div class="posted-date"><?= indonesian_date($berita->tgl)?></div><!--/.post-date-->
                                         </div><!--/.post-summary-->
-                                         </div>
                                     </li>
                                     <?php } ?>
-                                </ul>                               
+                                </ul>
+                            </div><!--/.widget-single-->
+                        </aside><!--/.sidebar-->                         
                             </div> <!-- End Col -->	
                         </div>
                          <div class="row text-center">
