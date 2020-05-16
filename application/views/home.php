@@ -5,7 +5,7 @@
                 <!-- Carousel-inner -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="assets/frontend/images/slider.jpg" alt="Construction">
+                        <img src="<?=base_url()?>assets/frontend/images/slider.jpg">
                         <div class="overlay">
                             <div class="carousel-caption">
                                 <h3>Aplikasi Pengembangan Pelatihan dan Service Center</h3>
@@ -16,7 +16,7 @@
                     </div>
                     <?php foreach ($slider as $sliders) { ?>
                     <div class="item">
-                        <img src="assets/img/slider/<?= $sliders->photo_slider ?>">
+                        <img src="<?=base_url()?>assets/img/slider/<?= $sliders->photo_slider ?>">
                         <div class="overlay">
                             <div class="carousel-caption">
                                 <h3>Aplikasi Pengembangan Pelatihan dan Service Center</h3>
@@ -132,8 +132,14 @@
                                                     </div>
                                                     <div class="blog-box-content">
                                                         <h4><a href=""><?= $berita->judul ?></a></h4>
-                                                        <p><?= substr($berita->desc, 0, 100)?> ..
-</p>
+                                                        <table>
+                                                        <tr>
+                                                        <td style="padding-right:10px">
+                                                        <span class="posted-date"  style="margin-top:10px;padding-right:10px;color:#959595"><?= indonesian_date($berita->tgl) ?></span>
+                                                        <td>
+                                                        <span class="posted-by"><i class="fa fa-user" aria-hidden="true"></i> By <a href="#">Admin AP2SC</a></span>
+                                                        </tr>    
+                                                        </table>
                                                         <a href="<?= base_url()?>detail/<?= abs($berita->id_news)?>" class="btn btn-default site-btn">Read More</a>
                                                     </div>
                                                 </div>
