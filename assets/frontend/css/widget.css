@@ -55,7 +55,7 @@
 	display: block;
 	color: #0257b3;
 	font-weight: 500;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	padding-bottom:5px;
 }
 .posted-date:after {
@@ -86,7 +86,7 @@
 }
 .posted-by {
 	float: left;
-	margin-right: 20px;
+	margin-right: 0px;
 	font-weight: 500;
 	color: #959595;
 }
@@ -282,8 +282,8 @@
 22. BLOG DETAIL PAGE CSS
 ================================================*/
 h1.post-title {
-	font-size: 30px;
-	margin: 0 0 20px;	
+	font-size: 22px;
+	margin: 0 0 5px;	
 }
 .tags-share:after, 
 .author-inforow:after {

@@ -2812,6 +2812,10 @@ pre code {
     .col-lg-4 {
         width: 33.33333333%
     }
+    
+    .col-lg-4v2 {
+        width: 30.33333333%
+    }
 
     .col-lg-3 {
         width: 25%
